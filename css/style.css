@@ -1,8 +1,57 @@
 body {
     margin: 0;
     background: #141D2F;
+    font-family: Poppins;
 }
 
-.atf_photo{
+.atf {
+    display: flex;
+    align-items: center;
+}
+
+.atf_left {
     height: 700px;
+}
+
+.atf_right {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.atf_text{
+    display: flex;
+}
+
+.atf_button{
+    justify-content: center;
+    display: flex;
+}
+
+.i_am {
+    transform: rotate(-90deg);
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.name_job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: -32px;
+}
+
+.dev {
+    font-size: 58px;
+    color: #9747FF !important;
+}
+
+.btn_lets_talks {
+    height: 58px;
 }
