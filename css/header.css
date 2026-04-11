@@ -1,0 +1,30 @@
+.name_logo{
+    height: 80px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 100px 37px 100px;
+}
+
+a{
+    font-family: Poppins;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 524px;
+}
+
+.set_language{
+    cursor: pointer;
+    display: flex;
+    height: 32px;
+    gap: 14px;
+}
