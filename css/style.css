@@ -11,6 +11,7 @@ body {
 
 .atf_left {
     height: 700px;
+    display: flex;
 }
 
 .atf_right {
@@ -33,6 +34,7 @@ body {
     font-size: 64px;
     display: flex;
     align-items: center;
+    margin-right: -16px;
 }
 
 .name_job {
@@ -52,6 +54,12 @@ body {
     color: #9747FF !important;
 }
 
-.btn_lets_talks {
+.btn_lets_talk {
+    display: inline-block;
+}
+
+.btn_lets_talk img {
     height: 58px;
+    width: auto;
+    display: block;
 }
