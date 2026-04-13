@@ -4,27 +4,50 @@ body {
     font-family: Poppins;
 }
 
+.flex_cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .atf {
     display: flex;
     align-items: center;
 }
 
 .atf_left {
-    height: 700px;
+    width: 40%;
     display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 24px;
+}
+
+.hero_img {
+    position: relative;
+    z-index: 1;
+}
+
+.shadow_background {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
 }
 
 .atf_right {
     display: flex;
+    width: 60%;
     flex-direction: column;
     color: white;
 }
 
-.atf_text{
+.atf_text {
     display: flex;
 }
 
-.atf_button{
+.atf_button {
     justify-content: center;
     display: flex;
 }
