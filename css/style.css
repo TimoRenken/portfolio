@@ -86,3 +86,9 @@ body {
     width: auto;
     display: block;
 }
+
+.hero_background {
+    position: absolute;
+    top: 600px;
+    z-index: 1;
+}
