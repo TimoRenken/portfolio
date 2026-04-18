@@ -12,6 +12,11 @@ body {
 
 .atf {
     display: flex;
+    flex-direction: column;
+}
+
+.atf_upper {
+    display: flex;
     align-items: center;
 }
 
@@ -22,6 +27,7 @@ body {
     position: relative;
     padding-left: 24px;
 }
+
 
 .hero_img {
     position: relative;
@@ -96,19 +102,55 @@ body {
 }
 
 .cta-button {
-  background: #66e61f;
-  color: white;
-  border: none;
-  padding: 15px 42px;
-  border-radius: 10px;
-  font-size: 20px;
-  cursor: pointer;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  font-family: Poppins;
+    background: #66e61f;
+    color: white;
+    border: none;
+    padding: 15px 42px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: Poppins;
 }
 
 .cta-button:hover {
-  background: linear-gradient(90deg, #8a3dff, #b14cff);
-  transform: scale(1.2);
+    background: linear-gradient(90deg, #8a3dff, #b14cff);
+    transform: scale(1.2);
+}
+
+.atf_under {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    margin-top: -32px;
+}
+
+.atf_under_left {
+    width: 40%;
+    display: flex;
+    gap: 32px;
+    align-items: end;
+}
+
+.atf_under_right {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+}
+
+.atf_under_left_icons {
+    display: flex;
+    gap: 32px;
+}
+
+.atf_under_left_line{
+    display: flex;
+    align-items: center;
+}
+
+.line_icons{
+    display: flex;
+    gap: 32px;
 }
