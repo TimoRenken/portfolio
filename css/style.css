@@ -175,3 +175,31 @@ body {
     align-items: center;
     gap: 16px;
 }
+
+.am_left {
+    width: 40%;
+}
+
+.am_right {
+    position: relative;
+    width: 60%;
+
+}
+
+.am_line {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.am_ellipse {
+    position: absolute;
+    top: 28%;
+    right: 267px;
+}
+
+.am_timo {
+    position: absolute;
+    right: 280px;
+    top: 29%;
+}
