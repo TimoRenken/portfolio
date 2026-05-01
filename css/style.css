@@ -145,19 +145,19 @@ body {
     gap: 32px;
 }
 
-.atf_under_left_line{
+.atf_under_left_line {
     display: flex;
     align-items: center;
 }
 
-.line_icons{
+.line_icons {
     display: flex;
     gap: 32px;
 }
 
 /* ABOUT ME SECTION */
 
-.about_me{
+.about_me {
     position: relative;
     display: flex;
     z-index: 2;
@@ -166,6 +166,12 @@ body {
     color: white;
 }
 
-.am_left h1{
+.am_left h1 {
     font-size: 90px;
+}
+
+.am_icon_text {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
