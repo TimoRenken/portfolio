@@ -203,3 +203,21 @@ body {
     right: 280px;
     top: 29%;
 }
+
+.my_skills {
+    display: flex;
+    color: white;
+}
+
+.my_skills h1 {
+    font-size: 90px;
+}
+
+.skill_icons {
+    padding-left: 48px;
+    display: flex;
+    gap: 40px 88px;
+    flex-wrap: wrap;
+    width: 50%;
+
+}
