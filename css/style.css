@@ -10,6 +10,11 @@ body {
     align-items: center;
 }
 
+.flex_end{
+    display: flex !important;
+    justify-content: end;
+}
+
 .atf {
     display: flex;
     flex-direction: column;
@@ -236,5 +241,18 @@ body {
 .short_purple_line {
     position: absolute;
     right: 0;
-    top: 194%;
+    top: 188%;
+}
+
+.lf_skill {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.lf_skill_highlight{
+    color: #9747FF !important;
+}
+
+.h1_skills {
+    margin-top: -24px;
 }
