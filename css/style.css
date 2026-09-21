@@ -97,7 +97,7 @@ body {
 
 .hero_background {
     position: absolute;
-    top: 600px;
+    top: 572px;
     z-index: 1;
 }
 
@@ -162,7 +162,7 @@ body {
     display: flex;
     z-index: 2;
     margin-top: 128px;
-    padding-left: 48px;
+    padding-left: 100px;
     color: white;
 }
 
@@ -206,7 +206,10 @@ body {
 
 .my_skills {
     display: flex;
+    justify-content: space-between;
     color: white;
+    padding: 180px 100px 0 100px;
+
 }
 
 .my_skills h1 {
@@ -214,10 +217,24 @@ body {
 }
 
 .skill_icons {
-    padding-left: 48px;
     display: flex;
     gap: 40px 88px;
     flex-wrap: wrap;
     width: 50%;
+}
 
+.skill_text {
+    width: 410px;
+}
+
+.headline_my_skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.short_purple_line {
+    position: absolute;
+    right: 0;
+    top: 194%;
 }
