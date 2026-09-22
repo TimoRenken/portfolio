@@ -103,6 +103,7 @@ body {
 .hero_background {
     position: absolute;
     top: 572px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -225,7 +226,7 @@ body {
     display: flex;
     gap: 40px 88px;
     flex-wrap: wrap;
-    width: 50%;
+    width: 664px;
 }
 
 .skill_text {
@@ -234,14 +235,13 @@ body {
 
 .headline_my_skills {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 .short_purple_line {
     position: absolute;
     right: 0;
-    top: 188%;
+    top: 185%;
 }
 
 .lf_skill {
