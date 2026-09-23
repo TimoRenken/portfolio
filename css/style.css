@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background: #141D2F;
+    color: white;
     font-family: Poppins;
 }
 
@@ -10,7 +11,7 @@ body {
     align-items: center;
 }
 
-.flex_end{
+.flex_end {
     display: flex !important;
     justify-content: end;
 }
@@ -65,6 +66,12 @@ body {
     top: 29%;
 }
 
+.am_shadow {
+    position: absolute;
+    right: 0;
+    top: -128px;
+}
+
 /* MY SKILLS SECTION */
 
 .my_skills {
@@ -105,10 +112,16 @@ body {
     font-weight: 700;
 }
 
-.lf_skill_highlight{
+.lf_skill_highlight {
     color: #9747FF !important;
 }
 
 .h1_skills {
     margin-top: -24px;
+}
+
+.ms_shadow {
+    position: absolute;
+    left: 0;
+    top: 2464px;
 }
