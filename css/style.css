@@ -15,151 +15,6 @@ body {
     justify-content: end;
 }
 
-.atf {
-    display: flex;
-    flex-direction: column;
-}
-
-.atf_upper {
-    display: flex;
-    align-items: center;
-}
-
-.atf_left {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    padding-left: 24px;
-}
-
-
-.hero_img {
-    position: relative;
-    z-index: 1;
-}
-
-.shadow_background {
-    position: absolute;
-    top: 200px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 0;
-}
-
-.atf_right {
-    display: flex;
-    position: relative;
-    z-index: 9;
-    width: 60%;
-    flex-direction: column;
-    color: white;
-}
-
-.atf_text {
-    display: flex;
-}
-
-.atf_button {
-    justify-content: center;
-    display: flex;
-}
-
-.i_am {
-    transform: rotate(-90deg);
-    font-size: 64px;
-    display: flex;
-    align-items: center;
-    margin-right: -16px;
-}
-
-.name_job {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.name {
-    font-size: 90px;
-    font-weight: 700;
-    margin-bottom: -32px;
-}
-
-.dev {
-    font-size: 58px;
-    color: #9747FF !important;
-}
-
-.btn_lets_talk {
-    display: inline-block;
-}
-
-.btn_lets_talk img {
-    height: 58px;
-    width: auto;
-    display: block;
-}
-
-.hero_background {
-    position: absolute;
-    top: 572px;
-    width: 100%;
-    z-index: 1;
-}
-
-.cta-button {
-    background: #66e61f;
-    color: white;
-    border: none;
-    padding: 15px 42px;
-    border-radius: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    font-family: Poppins;
-}
-
-.cta-button:hover {
-    background: linear-gradient(90deg, #8a3dff, #b14cff);
-    transform: scale(1.2);
-}
-
-.atf_under {
-    display: flex;
-    justify-content: space-between;
-    z-index: 2;
-    margin-top: -32px;
-}
-
-.atf_under_left {
-    width: 40%;
-    display: flex;
-    gap: 32px;
-    align-items: end;
-}
-
-.atf_under_right {
-    width: 60%;
-    display: flex;
-    justify-content: end;
-    padding-right: 100px;
-}
-
-.atf_under_left_icons {
-    display: flex;
-    gap: 32px;
-}
-
-.atf_under_left_line {
-    display: flex;
-    align-items: center;
-}
-
-.line_icons {
-    display: flex;
-    gap: 32px;
-}
 
 /* ABOUT ME SECTION */
 
@@ -210,12 +65,13 @@ body {
     top: 29%;
 }
 
+/* MY SKILLS SECTION */
+
 .my_skills {
     display: flex;
     justify-content: space-between;
     color: white;
     padding: 180px 100px 0 100px;
-
 }
 
 .my_skills h1 {
