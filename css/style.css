@@ -16,6 +16,10 @@ body {
     justify-content: end;
 }
 
+.font90{
+    font-size: 90px;
+}
+
 
 /* ABOUT ME SECTION */
 
@@ -70,6 +74,7 @@ body {
     position: absolute;
     right: 0;
     top: -128px;
+    z-index: -1;
 }
 
 /* MY SKILLS SECTION */
@@ -104,7 +109,7 @@ body {
 .short_purple_line {
     position: absolute;
     right: 0;
-    top: 185%;
+    top: 164%;
 }
 
 .lf_skill {
