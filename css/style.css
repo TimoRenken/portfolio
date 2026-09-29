@@ -16,7 +16,7 @@ body {
     justify-content: end;
 }
 
-.font90{
+.font90 {
     font-size: 90px;
 }
 
@@ -115,6 +115,7 @@ body {
 .lf_skill {
     font-size: 32px;
     font-weight: 700;
+    margin: 8px 0 8px 0;
 }
 
 .lf_skill_highlight {
@@ -123,10 +124,15 @@ body {
 
 .h1_skills {
     margin-top: -24px;
+    margin-bottom: 24px;
 }
 
 .ms_shadow {
     position: absolute;
     left: 0;
     top: 2464px;
+}
+
+.skill_information {
+    text-align: end;
 }
