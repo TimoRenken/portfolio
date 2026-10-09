@@ -14,6 +14,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.ct_input {
+    padding: 15px 25px 15px 25px;
     width: 617px;
-    
+    border: 1px solid;
+    border-color: #9747FF;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    margin-bottom: 32px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+textarea{
+    resize: none;
+    height: 202px;
+}
+
+textarea::placeholder{
+    color: white;
 }
