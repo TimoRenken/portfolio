@@ -20,6 +20,10 @@ body {
     font-size: 90px;
 }
 
+.font14{
+    font-size: 14px;
+}
+
 
 /* ABOUT ME SECTION */
 
@@ -118,7 +122,7 @@ body {
     margin: 8px 0 8px 0;
 }
 
-.lf_skill_highlight {
+.text_highlight {
     color: #9747FF !important;
 }
 

@@ -31,11 +31,25 @@ input::placeholder {
     color: white;
 }
 
-textarea{
+textarea {
     resize: none;
     height: 202px;
 }
 
-textarea::placeholder{
+textarea::placeholder {
     color: white;
+}
+
+.check_box {
+    display: flex;
+}
+
+.box {
+    width: 18px;
+    margin-right: 8px;
+}
+
+.ct_send_button{
+    margin-top: 16px;
+    cursor: pointer;
 }
